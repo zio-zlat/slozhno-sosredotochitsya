@@ -1,5 +1,6 @@
 .page.theme_light {
   background-image: url(../images/cover-image-light.png);
+  background-color: #FFF1F7;
   --header-text_color: #353430;
   --header-title_color: #FFC2E6;
   --main-color: #FF8DCB;
@@ -25,6 +26,7 @@
 @media (prefers-color-scheme: light) {
   .page.theme_auto {
     background-image: url(../images/cover-image-light.png);
+    background-color: #FFF1F7;
     --header-text_color: #353430;
     --header-title_color: #FFC2E6;
     --main-color: #FF8DCB;

@@ -3,7 +3,16 @@
   --header-title_color: #DB00FF;
   --main-color: #FF0070;
   --main-padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+  --title-font: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-line_heiht: clamp(5.98125rem, 5.7844rem + 0.8397vw, 6.1875rem);
   --accent-color: #FF0070;
   --color-text: #F1B2CE;
   --color-subtitle: #000028;
+}
+
+@media (width >= 768px) {
+  :root {
+  --title-font: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --title-line_heiht: clamp(6.1875rem, 0.4631rem + 11.9258vw, 8.095625rem);
+  }
 }

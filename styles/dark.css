@@ -1,5 +1,6 @@
 .page.theme_dark {
   background-image: url(../images/cover-image-dark.png);
+  background-color: #000028;
   --header-text_color: #FF0070;
   --header-title_color: #DB00FF;
   --main-color: #FF0070;
